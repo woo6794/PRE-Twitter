@@ -1,0 +1,161 @@
+html {
+  background-color: #001f3f;
+}
+
+body {
+  /*text-align: center*/
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.header {
+  box-sizing: border-box;
+  font-size: 100px;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  display: inline-block;
+  width: 100%;
+  min-width: 800px;
+  max-width: 1200px;
+  height: 110px;
+  margin: 20px 0;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+
+.header h1 {
+  height: 100%;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+  color: #fff;
+}
+
+.input-container {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  text-align: left;
+  margin-bottom: 20px;
+  /* height: 270px;*/
+  padding: 20px;
+  overflow: hidden;
+  width: 100%;
+  min-width: 800px;
+  max-width: 1200px;
+}
+
+.display {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  width: 100%;
+  min-width: 800px;
+  max-width: 1200px;
+  overflow: hidden;
+}
+.display ul {
+  padding: 20px;
+}
+
+#btn {
+  text-align: left;
+  border-bottom: 1px solid #fff;
+  padding: 20px;
+  font-weight: 800;
+}
+
+.user {
+  display: inline-block;
+  color: #fff;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0 20px;
+  width: 100%;
+  border-bottom: 2px solid;
+  border-color: #fff;
+  border-style: groove;
+}
+
+.row-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  float: right;
+  color: #fff;
+}
+
+.comments {
+  display: flow-root;
+  color: #fff;
+}
+
+.row:last-child {
+  margin-bottom: 15px;
+}
+
+.nameWrap {
+  margin-bottom: 10px;
+}
+
+.nameWrap input {
+  outline: none;
+}
+
+.commentWrap {
+  margin-bottom: 10px;
+}
+
+.Tweet {
+  font-size: 30px;
+  font-weight: 800;
+  background-color: #71b6f3f6;
+  border: none;
+  border-radius: 10px;
+  transition: background-color.3s;
+  padding: 0 15px;
+  outline: none;
+}
+
+.Tweet:hover {
+  background-color: #0986f3f6;
+  cursor: pointer;
+}
+
+._btn {
+  font-size: 30px;
+  font-weight: 800;
+  background-color: #71b6f3f6;
+  border: none;
+  border-radius: 10px;
+  transition: background-color.3s;
+  padding: 0 15px;
+  outline: none;
+}
+
+._btn:hover {
+  background-color: #0986f3f6;
+  cursor: pointer;
+}
+
+#comment {
+  resize: none;
+  height: 100px;
+  outline: none;
+}
